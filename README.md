@@ -12,7 +12,7 @@ A Model Context Protocol (MCP) App that pulls your Google Calendar events, unrea
 
 ## Get Started
 
-The app is live at **https://daily-briefing-mcp.fly.dev**. No setup or API keys needed — just connect and go.
+No setup or API keys needed — just authenticate, connect, and go.
 
 ### Step 1: Authenticate with Google
 
@@ -54,7 +54,8 @@ claude mcp add daily-briefing -s user --transport http \
 
 Ask Claude: **"show me my daily briefing"**
 
-That's it! You'll get a dashboard with your calendar, emails, and recent docs. Click any item to have Claude summarize or deep-dive into it.
+- **Claude Desktop** — renders an interactive dashboard UI where you can click any calendar event, email, or doc to have Claude dig deeper into it.
+- **Claude Code (terminal)** — returns a text-based summary of your calendar, emails, and docs. You can ask follow-up questions like "tell me more about that email from Sarah" to dive into specific items.
 
 ### Things You Can Ask
 
@@ -71,7 +72,7 @@ Once connected, try prompts like these:
 - **"Compare my schedule today vs yesterday"** — call the briefing multiple times to spot patterns
 - **"Turn my meeting notes into action items and assign them"** — combine Drive docs with calendar context
 
-The briefing is interactive — click any calendar event, email, or doc in the UI to have Claude dig deeper into it.
+In Claude Desktop, the briefing is interactive — click any calendar event, email, or doc in the UI to have Claude dig deeper. In Claude Code, just ask follow-up questions naturally.
 
 ---
 
